@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="logo">
+    <h3>{{title}}</h3>
+  </div>
+  <div class="questions">
+    <h3>{{questionSelected.question}}</h3>
+  </div>
+  <div class="options">
+    <button class="toggle__option">option name</button>
+  </div>
+  <div *ngIf=finished class="results">
+    <h1>o seu resultado é:</h1>
+    <p>resposta selecionada</p>
+  </div>
+</div>
